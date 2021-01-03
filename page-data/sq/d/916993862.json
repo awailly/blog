@@ -1,0 +1,1 @@
+{"errors":[{"message":"Input file contains unsupported image format","locations":[{"line":12,"column":7}],"path":["avatar","childImageSharp","fixed"]}],"data":{"avatar":{"childImageSharp":{"fixed":null}},"site":{"siteMetadata":{"author":{"name":"Aurélien Wailly","summary":"crazy builder."},"social":{"twitter":"awailly"}}}}}
