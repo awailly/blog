@@ -1,16 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Daily funsies`,
     author: {
       name: `Aurélien Wailly`,
       summary: `crazy builder.`,
     },
     description: `Daily brain dump on funsies.`,
-    siteUrl: `https://blog.wail.ly/`,
+    siteUrl: `https://awailly.github.io/blog/`,
     social: {
       twitter: `awailly`,
     },
   },
+  pathPrefix: `/blog`,
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

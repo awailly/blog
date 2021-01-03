@@ -6,11 +6,12 @@ module.exports = {
       summary: `crazy builder.`,
     },
     description: `Daily brain dump on funsies.`,
-    siteUrl: `https://blog.wail.ly/`,
+    siteUrl: `https://awailly.github.io/blog/`,
     social: {
       twitter: `awailly`,
     },
   },
+  pathPrefix: `/blog`,
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -72,6 +73,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
